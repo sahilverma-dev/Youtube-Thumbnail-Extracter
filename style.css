@@ -9,6 +9,8 @@
 }
 
 .main-container {
+  max-width: 1000px;
+  margin: 0 auto;
   min-height: calc(100vh - 100px);
 }
 
@@ -17,26 +19,11 @@
   height: 40px;
 }
 
-.post-monster {
-  width: auto;
-}
-
 img {
   display: block;
   max-width: 100%;
   object-fit: cover;
 }
-
-.key-params input,
-.header-params input {
-  margin-right: 10px;
-}
-
-.add-params-btn {
-  display: block;
-  margin: 0 auto;
-}
-
 .code-with-love {
   position: fixed;
   right: 20px;
