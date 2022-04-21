@@ -44,7 +44,31 @@ const getThumbnails = (id) => [
     size: "1280x720",
   },
   {
+    url: `https://img.youtube.com/vi/${id}/maxres1.jpg`,
+    size: "1280x720",
+  },
+  {
+    url: `https://img.youtube.com/vi/${id}/maxres2.jpg`,
+    size: "1280x720",
+  },
+  {
+    url: `https://img.youtube.com/vi/${id}/maxres3.jpg`,
+    size: "1280x720",
+  },
+  {
     url: `https://img.youtube.com/vi/${id}/sddefault.jpg`,
+    size: "640x480",
+  },
+  {
+    url: `https://img.youtube.com/vi/${id}/sd1.jpg`,
+    size: "640x480",
+  },
+  {
+    url: `https://img.youtube.com/vi/${id}/sd2.jpg`,
+    size: "640x480",
+  },
+  {
+    url: `https://img.youtube.com/vi/${id}/sd3.jpg`,
     size: "640x480",
   },
   {
@@ -52,11 +76,47 @@ const getThumbnails = (id) => [
     size: "480x360",
   },
   {
+    url: `https://i.ytimg.com/vi/${id}/hq1.jpg`,
+    size: "480x360",
+  },
+  {
+    url: `https://i.ytimg.com/vi/${id}/hq2.jpg`,
+    size: "480x360",
+  },
+  {
+    url: `https://i.ytimg.com/vi/${id}/hq3.jpg`,
+    size: "480x360",
+  },
+  {
     url: `https://img.youtube.com/vi/${id}/mqdefault.jpg`,
     size: "320x180",
   },
   {
+    url: `https://img.youtube.com/vi/${id}/mq1.jpg`,
+    size: "320x180",
+  },
+  {
+    url: `https://img.youtube.com/vi/${id}/mq2.jpg`,
+    size: "320x180",
+  },
+  {
+    url: `https://img.youtube.com/vi/${id}/mq3.jpg`,
+    size: "320x180",
+  },
+  {
     url: `https://img.youtube.com/vi/${id}/default.jpg`,
+    size: "120x90",
+  },
+  {
+    url: `https://img.youtube.com/vi/${id}/1.jpg`,
+    size: "120x90",
+  },
+  {
+    url: `https://img.youtube.com/vi/${id}/2.jpg`,
+    size: "120x90",
+  },
+  {
+    url: `https://img.youtube.com/vi/${id}/3.jpg`,
     size: "120x90",
   },
 ];
