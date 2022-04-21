@@ -130,7 +130,7 @@ selectEle("form").onsubmit = (e) => {
     thumbnails.innerHTML = "";
     getThumbnails(getVideoId(url)).map((item) => {
       const ele = `
-          <div class="col-12 col-md-6 col-lg-4 ">
+          <div class="col-12 col-md-6 col-lg-3 ">
             <div class="aspect-video card mb-4 text-white">
                 <div class="size rounded px-2 py-1 bg-primary ">
                     ${item?.size}
