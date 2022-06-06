@@ -1,6 +1,6 @@
 # YouTube Videos Thumbnail Extractor
 
-With the help of this project you can easily downlaod any YouTube video's thumbnail in various resolutions.
+A PWA which is use to download any YouTube video's thumbnail in various resolutions.
 
 #### Try This now : [YouTube Videos Thumbnail Extractor](https://youtube-thumbnail-extracter.vercel.app/)
 

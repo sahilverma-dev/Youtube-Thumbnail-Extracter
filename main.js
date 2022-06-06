@@ -1,4 +1,5 @@
 // utility functions
+
 const selectEle = (e) => document.querySelector(e);
 const selectAllEle = (e) => document.querySelectorAll(e);
 
