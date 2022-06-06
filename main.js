@@ -34,10 +34,14 @@ const validateYouTubeUrl = (url) => {
   return false;
 };
 const getVideoId = (url) => {
-  let regExp =
-    /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
-  let match = url.match(regExp);
-  return match && match[7].length == 11 ? match[7] : false;
+  if (url?.startsWith("https://www.youtube.com/shorts/")) {
+    return url?.split("/")[4];
+  } else {
+    let regExp =
+      /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+    let match = url.match(regExp);
+    return match && match[7].length == 11 ? match[7] : false;
+  }
 };
 const getThumbnails = (id) => [
   {
@@ -124,13 +128,20 @@ const getThumbnails = (id) => [
 selectEle("form").onsubmit = (e) => {
   e.preventDefault();
   let url = selectEle("input")?.value;
-  if (!validateYouTubeUrl(url)) showAlert("Invalid Youtube Link");
-
-  if (validateYouTubeUrl(url)) {
-    const thumbnails = selectEle(".thumbnails");
-    thumbnails.innerHTML = "";
-    getThumbnails(getVideoId(url)).map((item) => {
-      const ele = `
+  if (
+    !validateYouTubeUrl(url) &&
+    !url?.startsWith("https://www.youtube.com/shorts")
+  )
+    showAlert("Invalid Youtube Link");
+  else {
+    if (
+      validateYouTubeUrl(url) ||
+      url?.startsWith("https://www.youtube.com/shorts")
+    ) {
+      const thumbnails = selectEle(".thumbnails");
+      thumbnails.innerHTML = "";
+      getThumbnails(getVideoId(url)).map((item) => {
+        const ele = `
           <div class="col-12 col-md-6 col-lg-3 ">
             <div class="aspect-video card mb-4 text-white">
                 <div class="size rounded px-2 py-1 bg-primary ">
@@ -145,7 +156,8 @@ selectEle("form").onsubmit = (e) => {
             </div>
         </div>
           `;
-      thumbnails.innerHTML += ele;
-    });
+        thumbnails.innerHTML += ele;
+      });
+    }
   }
 };

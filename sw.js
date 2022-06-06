@@ -1,5 +1,11 @@
 const cacheName = "YouTube Thumbnails Extractor";
-const filesToCache = ["/", "/index.html", "/style.css", "/main.js"];
+const filesToCache = [
+  "/",
+  "/index.html",
+  "/image.jpg",
+  "/style.css",
+  "/main.js",
+];
 
 /* Start the service worker and cache all of the app's content */
 self.addEventListener("install", function (e) {
