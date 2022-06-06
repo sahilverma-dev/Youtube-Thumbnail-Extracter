@@ -2,21 +2,14 @@
 
 A PWA which is use to download any YouTube video's thumbnail in various resolutions.
 
+### Home
+
 #### Try This now : [YouTube Videos Thumbnail Extractor](https://youtube-thumbnail-extracter.vercel.app/)
 
-## Screenshot
+## Screenshots
 
 ### Home
 
-<<<<<<< HEAD
-=======
-#### Try This now : [YouTube Videos Thumbnail Extractor](https://youtube-thumbnail-extracter.vercel.app/)
-
-## Screenshot
-
-### Home
-
->>>>>>> 6218112d5031e75251f150e9153b7793576e6fdf
 ![Home](./screenshot/home.png)
 
 ### Thumbnail download
