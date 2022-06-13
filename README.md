@@ -6,6 +6,8 @@ A PWA which is use to download any YouTube video's thumbnail in various resoluti
 
 #### Try This now : [YouTube Videos Thumbnail Extractor](https://youtube-thumbnail-extracter.vercel.app/)
 
+#### Download APK : [YouTube Videos Thumbnail Extractor](./app-release-signed.apk)
+
 ## Screenshots
 
 ### Home

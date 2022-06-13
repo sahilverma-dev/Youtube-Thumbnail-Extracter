@@ -1,0 +1,8 @@
+app/vercel/youtube_thumbnail_extracter/twa/BuildConfig.java
+ app.vercel.youtube_thumbnail_extracter.twa.BuildConfig
+app/vercel/youtube_thumbnail_extracter/twa/Application.java
+ app.vercel.youtube_thumbnail_extracter.twa.Application
+app/vercel/youtube_thumbnail_extracter/twa/LauncherActivity.java
+ app.vercel.youtube_thumbnail_extracter.twa.LauncherActivity
+app/vercel/youtube_thumbnail_extracter/twa/DelegationService.java
+ app.vercel.youtube_thumbnail_extracter.twa.DelegationService

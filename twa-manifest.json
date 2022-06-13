@@ -1,0 +1,39 @@
+{
+  "packageId": "app.vercel.youtube_thumbnail_extracter.twa",
+  "host": "youtube-thumbnail-extracter.vercel.app",
+  "name": "YouTube Thumbnails Extractor",
+  "launcherName": "YT Thumb",
+  "display": "standalone",
+  "themeColor": "#333333",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#333333",
+  "enableNotifications": true,
+  "startUrl": "/index.html",
+  "iconUrl": "https://youtube-thumbnail-extracter.vercel.app/icons/manifest-icon-512.maskable.png",
+  "maskableIconUrl": "https://youtube-thumbnail-extracter.vercel.app/icons/manifest-icon-512.maskable.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "C:\\Users\\voido\\Desktop\\Sahil\\HTML\\Youtube-Thumbnail-Extracter\\android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://youtube-thumbnail-extracter.vercel.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "appVersion": "1"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "app.vercel.youtube_thumbnail_extracter.twa",
+  "variantName": "release",
+  "elements": []
+}
