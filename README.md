@@ -1,27 +1,30 @@
-# YouTube Videos Thumbnail Extractor
+# React + TypeScript + Vite
 
-A PWA which is use to download any YouTube video's thumbnail in various resolutions.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Home
+Currently, two official plugins are available:
 
-#### Try This now : [YouTube Videos Thumbnail Extractor](https://youtube-thumbnail-extracter.vercel.app/)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-#### Download APK : [YouTube Videos Thumbnail Extractor](./app-release-signed.apk)
+## Expanding the ESLint configuration
 
-## Screenshots
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-### Home
+- Configure the top-level `parserOptions` property like this:
 
-![Home](./screenshot/home.png)
+```js
+export default {
+  // other rules...
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    project: ['./tsconfig.json', './tsconfig.node.json'],
+    tsconfigRootDir: __dirname,
+  },
+}
+```
 
-### Thumbnail download
-
-![Thumbnails](./screenshot/thumbnails.png)
-
-## Tech Stack
-
-**Client:** HTML, CSS, Font Awesome, BootStarp 5
-
-## Feedback
-
-If you have any feedback, please reach out to us at sahilverma.webdev@gmail.com
+- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
+- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
